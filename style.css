@@ -1,0 +1,20 @@
+.list {
+  width: 500px; border: 1px dotted #c9c9c9; padding-top: 10px; padding-bottom: 10px; 
+}
+
+.list li span {
+  cursor: pointer;
+}
+
+.list li ul {
+  display: none;
+}
+
+.list li ul.show {
+  display: block;
+}
+
+.avatar {
+	border: 1px dotted #242424; cursor: pointer; padding: 0 2px;
+	position: absolute; z-index: 1000;
+}
